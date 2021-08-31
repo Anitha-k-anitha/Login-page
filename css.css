@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:montserrat;
+    font-size:16px;
+    background:url(blue-dragon--glaucus-atlanticus--blue-sea-slug-986491702-f0cb140dd639453e8a2d8c56637dce73.jpg);
+    height:100vh;
+    background-size:cover;
+}
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:rgba(156, 98, 98, 0.137);
+    border-radius:10px;
+}
+.center h1{
+    text-align: center;
+    color:black;
+    border-bottom:2px solid black;
+}
+.center form{
+    padding-left:0 40px;
+}
+form .textfield{
+    position:relative;
+    margin:30px 0;
+    color:blue;
+    border-bottom:2px solid white;
+}
+.textfield:hover{
+    color:indigo;
+    border-bottom:2px solid brown;
+    transition:0.5s;
+}
+.textfield input{
+    background:none;
+    border:none;
+    width:100%;
+    height:40px;
+    font-size:30px;
+    color:burlywood;
+}
+.forpass a{
+    color:silver;
+    text-decoration: none;
+    cursor:pointer;
+}
+.forpass a:hover{
+    color:red;
+    text-decoration:underline;
+    transition:0.5s;
+}
+input[type="submit"]{
+    margin:15px 10px 15px 0;
+    width:100%;
+    height:40px;
+    border-radius:25px;
+    border-color:rgb(7, 41, 143);
+    background:royalblue;
+    color:silver;
+    font-size:20px;
+    font-weight: 700;
+    cursor:pointer;
+}
+input[type="submit"]:hover{
+    border:2px solid rgb(7, 41, 143);
+    background:white;
+    color:rgb(7, 41, 143);
+}
+.signup{
+    text-align:center;
+    padding:20px 0;
+    font-size:16px;
+}
+.signup a{
+    text-decoration:none ;
+}
+.signup a:hover{
+    text-decoration:underline;
+}
